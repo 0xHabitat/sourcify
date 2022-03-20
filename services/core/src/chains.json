@@ -1,5 +1,13 @@
 [
   {
+    "name": "Localhost",
+    "network": "localhost",
+    "rpc": ["http://localhost:8545"],
+    "faucets": [],
+    "chainId": 1337,
+    "networkId": 1337
+  },
+  {
     "name": "Ethereum Mainnet",
     "chain": "ETH",
     "icon": "ethereum",

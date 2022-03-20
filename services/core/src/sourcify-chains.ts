@@ -35,6 +35,10 @@ function getBlockscoutRegex(blockscoutPrefix="") {
 }
 
 export default {
+    "1337": {
+        "supported": true,
+        "monitored": false,
+    },
     "1": {
         "supported": true,
         "monitored": true,
