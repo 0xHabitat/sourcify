@@ -1,5 +1,5 @@
 import cbor from 'cbor';
-import * as chainsRaw from "../chains.json";
+import chainsRaw from "../chains";
 import sourcifyChainsRaw from "../sourcify-chains";
 import { StringMap, ReformattedMetadata, Chain } from './types';
 const chains = chainsRaw as any;
